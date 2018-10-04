@@ -1,10 +1,10 @@
 # CPE487  
-##Code for Digital System Design  
+## Code for Digital System Design  
   
-###Basics for running any of my files (this example will be done with comparator)  
+### Basics for running any of my files (this example will be done with comparator)  
   
-####Make sure to have GHDL installed and added to your PATH! Make sure to have GTKWave installed for visualization!  
-#####open cmd -> navigate to CPE487 directory  
+#### Make sure to have GHDL installed and added to your PATH! Make sure to have GTKWave installed for visualization!  
+##### open cmd -> navigate to CPE487 directory  
 `ghdl -a comp.vhd`           (name of file)  
 `ghdl -a comp_tb.vhd`        (name of testbench)  
 `ghdl -e test_comparator`    (here the name should be the name of the entity in the testbench file)  
