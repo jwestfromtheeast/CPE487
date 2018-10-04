@@ -4,11 +4,11 @@
 ### Basics for running any of my files (this example will be done with comparator)  
   
 #### Make sure to have GHDL installed and added to your PATH! Make sure to have GTKWave installed for visualization!  
-##### open cmd -> navigate to CPE487 directory  
+open Command Prompt -> navigate to CPE487 directory  
 `ghdl -a comp.vhd`           (name of file)  
 `ghdl -a comp_tb.vhd`        (name of testbench)  
 `ghdl -e test_comparator`    (here the name should be the name of the entity in the testbench file)  
-`ghdl -r test_comparator --vcd=test_comparator.vcd`  
+`ghdl -r test_comparator --vcd=test_comparator.vcd` (name within `vcd=` should be the name you want for your output file)  
 (NOTE: if you get error `unit "std_logic_unsigned" not found in library "ieee"`  
 THEN: add `--ieee=synopsys` after your ghdl command (ie `-a` `-e` `-r`)  
 the line would then look something like this: `ghdl -a --ieee=synopsys comp_tb.vhd`)  
