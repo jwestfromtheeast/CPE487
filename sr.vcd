@@ -1,0 +1,48 @@
+$date
+  Thu Oct 04 01:27:41 2018
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 1 ! s $end
+$var reg 1 " r $end
+$var reg 1 # q $end
+$var reg 1 $ notq $end
+$scope module sr_latch $end
+$var reg 1 % s $end
+$var reg 1 & r $end
+$var reg 1 ' q $end
+$var reg 1 ( notq $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+U#
+U$
+0%
+0&
+U'
+U(
+#1000000
+1!
+1#
+1%
+1'
+0(
+#2000000
+0!
+0%
+#3000000
+1"
+0#
+1&
+0'
+1(
+#4000000
+0"
+0&
+#5000000
